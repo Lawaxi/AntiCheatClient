@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.lawaxi.anticheat.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "KeyBoardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

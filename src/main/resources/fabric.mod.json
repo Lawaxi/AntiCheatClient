@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "anticheat",
+  "version": "2.0.0",
+
+  "name": "Lawaxi Anti Cheat",
+  "description": "AntiCheat For 1.16",
+  "authors": [
+    "Lawaxi"
+  ],
+  "contact": {
+    "homepage": "https://lawaxi.net/",
+    "sources": "https://lawaxi.net/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/serverbase/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lawaxi.anticheat.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "anticheat.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.5"
+  }
+}
